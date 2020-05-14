@@ -1,0 +1,572 @@
+@import url('https://googleapis.com/css2?family=Source+Sans+Pro:wght@200')
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+}
+/********************
+	 **All CSS**
+********************/
+/******************
+ Header Css Start
+*********************/
+.header-section{
+    width: 100%;
+    background: #6b53ff;
+    color: #000;
+}
+.header-section .logo{
+  width: 100%;
+  padding: 40px 0px;
+}
+.header-section .header-inner .navbar{
+    width: 100%;
+    padding: 40px 0px;
+    font-family: 'Poppins', sans-serif;
+    background: transparent !important;
+    color: #fff;
+    
+}
+.header-section .header-inner .navbar .nav-item .nav-link{
+  font-size: 20px;
+  margin-left: 24px;
+  font-weight: 600;
+  color: #fff;
+
+}
+.header-inner .form-inline .btn{
+   font-size: 18px;
+   line-height: 18px;
+   font-weight: 600;
+   padding: 10px 0px;
+  color: #ffffff;
+  background: #6b53ff;
+  border-radius: 5px;
+
+}
+.header-inner .form-inline .btn:hover{
+  background: #ffffff;
+  color: #6b53ff;
+  transition: 1s;
+
+}
+/*********************
+    Hero Css Start
+************************/
+.hero{
+  width: 100%;
+  padding: 60px 0px;
+  background: #6b53ff;
+}
+.hero .hero-inner{
+  padding: 40px;
+  color: #ffffff;
+}
+.hero .hero-inner h6{
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 600;
+  
+}
+.hero .hero-inner h2{
+    font-size: 42px;
+  line-height: 52px;
+  font-weight: 700;
+}
+.hero .hero-inner p{
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+
+}
+.hero .hero-inner .btn-i{
+ font-size: 18px;
+   line-height: 18px;
+   font-weight: 400;
+   padding: 10px 0px;
+   border: 1px solid #6b53ff;
+  color: #ffffff;
+  background: #6b53ff;
+  border-radius: 5px;
+}
+.hero .hero-inner .btn-i:hover{
+  background: #ffffff;
+  color: #6b53ff;
+  transition: 1s;
+}
+
+.hero .search{
+  width: 100%;
+  padding: 20px;
+ 
+}
+.hero .search .btn{
+  padding-left: 40px;
+  font-size: 20px;
+  line-height: 22px;
+   color: #ffffff;
+  font-weight: 600;
+  border: 2px solid #6b53ff;
+}
+.hero .search .btn:hover{
+  background: #ffffff;
+  color: #a7a7a7;
+  transition: 1s;
+}
+/*******************
+ Gry-part css start
+********************/
+.gry-part{
+  width: 100%;
+  padding: 50px 0px 0px 60px;
+  background: #f4f4f4;
+}
+.gry-part h4{
+  font-size: 22px;
+  line-height: 24px;
+  padding: 10px 0px 0px 0px;
+  font-weight: 600;
+  color: #000000;
+}
+.gry-part h6{
+  font-size: 12px;
+  line-height: 14px;
+  padding: 2px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.gry-part p{
+  font-size: 13px;
+  line-height: 18px;
+  padding: 5px;
+  font-weight: 600;
+  color: #735cfe;
+}
+
+/***********************
+Gry-part CSs End
+*********************/
+.feature-section{
+  width: 100%;
+  padding: 40px;
+}
+.feature-section .feature-head{
+  text-align: center;
+}
+.feature-section .feature-head h2{
+   font-size: 32px;
+  line-height: 34px;
+  padding: 10px 0px 0px 0px;
+  font-weight: 700;
+  color: #000000;
+}
+.feature-section .feature-head h5{
+  font-size: 12px;
+  line-height: 14px;
+  padding: 2px;
+  font-weight: 600;
+  color: #000000;
+}
+.feature-section .feature-img{
+  padding: 40px 0px 0px 0px;
+}
+.feature-section .feature-inner{
+  padding: 70px 0px 0px 0px;
+}
+.feature-section .feature-inner h4{
+  font-size: 18px;
+  line-height: 24px;
+  padding: 2px;
+  font-weight: 600;
+  color: #000000;
+}
+.feature-section .feature-inner h2{
+  font-size: 28px;
+  line-height: 38px;
+  padding: 2px;
+  font-weight: 700;
+  color: #000000;
+}
+.feature-section .feature-inner h6{
+  font-size: 12px;
+  line-height: 14px;
+  padding: 2px;
+  font-weight: 600;
+  color: #000000;
+}
+.feature-section .feature-inner p{
+  font-size: 12px;
+  line-height: 14px;
+  padding: 2px;
+  font-weight: 600;
+  color: #000000;
+}
+.feature-section .feature-inner .media{
+  font-size: 40px;
+}
+.feature-section .feature-inner .media-body h5{
+  padding: 5px;
+ font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #6b53ff;
+}
+.feature-section .feature-inner .media-body p{
+   font-size: 12px;
+  line-height: 14px;
+  font-weight: 600;
+  color: #000000;
+}
+.feature-section .feature-inner .btn{
+  padding: 20px;
+    font-size: 18px;
+   line-height: 18px;
+   font-weight: 600;
+   padding: 10px 0px;
+  color: #6b53ff;
+  background: #ffffff;
+  border-radius: 5px;
+
+}
+.feature-section .feature-inner .btn:hover{
+  background: #6b53ff;
+  color: #ffffff;
+  transition: 1s;
+}
+/*************
+fratur css End
+***************/
+/***************
+  Clint Css
+*******************/
+.clint-section{
+  width: 100%;
+  padding: 70px;
+  background: #f3f3f3;
+}
+.clint-section .media .media-body{
+  padding: 20px;
+}
+.clint-section .media-body h4{
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 700;
+  color: #6b53ff;  
+}
+.clint-section .media-body p{
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+/***************
+  Clint Css End
+*****************/
+/***********
+Recent Css
+***********/
+.recent{
+  width: 100%;
+  padding: 50px;
+
+}
+.recent .recent-head{
+  text-align: center;
+  padding-bottom: 30px;
+}
+.recent .recent-head h2{
+  font-size: 28px;
+  line-height: 38px;
+  padding: 2px;
+  font-weight: 700;
+  color: #000000;
+}
+.recent .recent-head h5{
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+.recent .recent-inner{
+  padding: 10px 10px 30px 10px;
+}
+.recent .inner-recent .btn{
+  text-align: center;
+    font-size: 18px;
+    line-height: 18px;
+   font-weight: 600;
+   padding: 20px 0px;
+   margin-left: 480px;
+  color: #6b53ff;
+  background: #ffffff;
+  border-radius: 5px;
+
+}
+.recent .inner-recent .btn:hover{
+  background: #6b53ff;
+  color: #ffffff;
+  transition: 1s;
+}
+
+
+/*******************
+    Recent Css end
+**********************/
+
+
+
+/******************
+Feedback Css Start
+*******************/
+.feed-section{
+  width: 100%;
+  padding: 20px;
+}
+.feed-section .feed-inner{
+  text-align: center;
+
+}
+.feed-section .feed-inner h2{
+  font-size: 34px;
+  line-height: 44px;
+  padding: 2px;
+  font-weight: 700;
+  color: #000000;
+}
+.feed-section .feed-inner p{
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #000000;
+}
+.feed-section .inner-feed{
+  padding: 20px;
+}
+.feed-section .inner-feed h5{
+  width: 100%;
+  padding: 20px;
+  background: url(../images/feed.png) center top no-repeat;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+.feed-section .media{
+  padding: 20px;
+}
+.feed-section .media h5{
+ font-size: 22px;
+  line-height: 28px;
+  padding: 5px;
+  font-weight: 600;
+  color: #735cfe;
+}
+
+.feed-section .media p{
+  font-size: 16px;
+  line-height: 24px;
+  padding: 1px;
+  font-weight: 600;
+  color: #000000;
+}
+/******************
+Feedback Css End
+*******************/
+/********************
+subscribe css Start
+**********************/
+.subscribe{
+  width: 100%;
+  padding: 50px;
+  background: #6b53ff;
+}
+.subscribe .form-row .form-control{
+  font-size: 22px;
+  line-height: 28px;
+  padding: 15px;
+  font-weight: 600;
+  color: #a7a7a7;
+}
+.subscribe .form-row .btn{
+  text-align: center;
+    font-size: 24px;
+    line-height: 14px;
+   font-weight: 600;
+   padding: 15px 0px;
+   margin-left: 80px;
+  color: #ffffff;
+  background: #6b53ff;
+  border-radius: 5px;
+
+}
+.subscribe .form-row  .btn:hover{
+  background: transparent;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  color: #a7a7a7;
+  transition: 1s;
+}  
+
+/***********************
+subscribe css End
+**********************/
+
+/********************
+  Futter Css Start
+********************/
+.futtere-section{ 
+  padding: 30px;
+  background: #6b53ff;  
+  color: #ffffff;
+}
+.futtere-section .futter{
+  padding-top: 30px;
+}
+.futtere-section .futtter-head h4{
+  padding: 20px 0px 20px 0px;
+  font-size: 24px;
+  line-height: 30px; 
+  font-weight: 600;
+}
+.futtere-section .futter .media-body{
+  padding-top: 40px;
+}
+.futtere-section .futter .media-body p{
+  font-size: 16px;
+  line-height: 20px;
+
+}
+.futtere-section .futter .media-body h5{
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.futtere-section .futter-inner p{
+  padding-top: 15px;
+  font-size: 16px;
+  line-height: 20px;
+
+}
+/******************
+main-footer
+********************/
+.main-footer{
+   padding-top: 45px;
+   background: #6b53ff; 
+   color: #ffffff;
+}
+.main-footer .footer-text{
+  padding: 2px;
+  font-size: 16px;
+  line-height: 20px;
+}
+.socail-icon{
+  width: 100%;
+}
+.socail-icon{
+
+}
+.socail-icon ul{
+}
+.socail-icon ul li{
+  list-style: none;
+  display: inline-block;
+}
+.socail-icon ul li a{
+  text-align: center;
+  margin: 0px 15px;
+}
+.socail-icon ul li a i{
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  background: #6b53ff;
+  border-radius: 70%;
+  color: #fff;
+  border: 1px solid #ffffff;
+}
+
+
+
+/********************
+  Futter Css End
+********************/
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  //CSS
+  
+}
